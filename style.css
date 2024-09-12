@@ -1,0 +1,207 @@
+ 
+
+.navbar {
+    display: flex;
+    background-color: black;
+    
+}
+.cover > img {
+    height: 40rem;
+    object-fit: cover;
+    object-position: center;
+    
+    
+  
+    
+}
+.text {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    color: white;
+
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    width: 460px;
+    word-spacing: 0%;
+    font-weight: normal;
+    line-height: 72px;
+} 
+
+h4 {
+    position: absolute;
+
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+
+}
+
+.card{
+    overflow: hidden;
+    
+    
+
+}
+.card-body{
+    overflow: hidden;
+    
+    
+    
+}
+
+.card-body .card-text{
+    margin: auto;
+   
+}
+.card img{
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item {
+    object-position: center;
+}  
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+
+}
+.container{
+    width: 80;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    text-wrap: nowrap;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+
+}
+
+.content-section .content .button{
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    background-color: grey;
+    padding: 12px 40px ;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+}
+.content-section .content .button a:hover{
+    background-color: #a52a2a;
+    color: white;
+}
+.content-section .socials{
+    margin: 40px;
+
+}
+
+.content-section .socials i{
+    color: #5d5d5d;
+    font-size: 30px ;
+    padding: 0px 10px;
+}
+
+.content-section .socials i:hover{
+    
+    color: #a52a2a;
+}
+.footer{
+    background-color: black;
+
+}
+.footercointainer{
+    width: 100%;
+    padding: 70px 20px 30px;
+    background-color: black;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2rem;
+    color: black;
+    opacity: 0.9;
+}
+.socialicons a:hover{
+    background-color: black;
+    color: grey;
+    transition: 0.5s;
+}
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footernav{
+    margin: 30px 0;
+
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.footerbottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+
+
+
+
+
+
+
+
